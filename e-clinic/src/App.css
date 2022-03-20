@@ -16,7 +16,7 @@
 
 .icon{
     font-size: 27px;
-    color: rgb(100,100,230);
+    color: #304FC1;
     font-weight: 700 ;
 }
 
@@ -30,7 +30,7 @@
     cursor: pointer;
 }
 .n_item:hover{
-    border-bottom: 2px solid rgb(100,100,230);
+    border-bottom: 2px solid #304FC1;
     
 }
 
@@ -42,16 +42,16 @@
 
 .an_item{
     text-align: center;
-    border: 2px solid rgb(100,100,230);
+    border: 2px solid #304FC1;
     padding: 7px 20px;
     border-radius: 10px;
-    color: rgb(100,100,230);
+    color: #304FC1;
     font-weight: 500;
     cursor: pointer;
 }
 
 .solid{
-    background: rgb(100,100,230);
+    background: #304FC1;
     color: white;
 }
 
@@ -78,7 +78,7 @@
 
 .talk_to_a_doc{
     display: inline-flex;
-    background-color: rgb(100,100,230);
+    background-color: #304FC1;
     color: white;
     padding: 10px 30px;
     font-weight: 600;
@@ -118,4 +118,7 @@
 
 .c_item:hover{
     background-color: rgba(100,100,230, 0.5);
+}
+.right img{
+    height: fit-content;
 }
