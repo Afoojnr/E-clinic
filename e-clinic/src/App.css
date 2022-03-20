@@ -1,38 +1,121 @@
-.App {
-  text-align: center;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Nav Component */
+.nav_compo{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    gap: 200px;
+    padding: 10px 50px;
+    align-items: center;
+    justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.icon{
+    font-size: 27px;
+    color: rgb(100,100,230);
+    font-weight: 700 ;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.centered_nav_items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.n_item{
+    cursor: pointer;
+}
+.n_item:hover{
+    border-bottom: 2px solid rgb(100,100,230);
+    
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.auth_nav_items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.an_item{
+    text-align: center;
+    border: 2px solid rgb(100,100,230);
+    padding: 7px 20px;
+    border-radius: 10px;
+    color: rgb(100,100,230);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.solid{
+    background: rgb(100,100,230);
+    color: white;
+}
+
+/* Banner */
+.banner_compo{
+    width: 92%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner_text_container{
+    width: 60%;
+    padding: 100px;
+}
+
+.banner_text_container  > h1{
+    color: rgb(10,10,30);
+}
+
+.banner_text_container  > p{
+    color: rgb(100,100,150);
+}
+
+.talk_to_a_doc{
+    display: inline-flex;
+    background-color: rgb(100,100,230);
+    color: white;
+    padding: 10px 30px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+/* Section-1 */
+.section_1{
+    width: 92%;
+    margin: 100px auto;
+}
+
+.section_1 > h1{
+    text-align: center;
+    color: rgb(10,10,30);
+}
+
+.section_1_card_items{
+    margin: 50px ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.c_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: rgba(100,100,230, 0.2);
+    padding: 20px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.c_item:hover{
+    background-color: rgba(100,100,230, 0.5);
 }
