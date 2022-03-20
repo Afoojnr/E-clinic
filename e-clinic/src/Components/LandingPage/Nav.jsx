@@ -4,7 +4,7 @@ function Nav() {
   return (
     <div className='nav_compo'>
         <div className="icon">
-            E-Clinic
+            E-CLINIC
         </div>
 
         <div className="centered_nav_items">
